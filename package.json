@@ -1,0 +1,25 @@
+{
+  "name": "pmforge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node -e \"require('fs').copyFileSync('node_modules/@vercel/analytics/dist/index.mjs','assets/vercel-analytics.mjs')\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpeterson1406/PMForge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rpeterson1406/PMForge/issues"
+  },
+  "homepage": "https://github.com/rpeterson1406/PMForge#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
