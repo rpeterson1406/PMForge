@@ -1,0 +1,12 @@
+.site-footer {
+  padding: 38px 0 54px;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,22 @@
+.badge-chip {
+  padding: 8px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.055);
+  color: #dce6ff;
+  font-size: 12px;
+}
+
+.badge-status {
+  font-size: 12px;
+  color: #c9ffe0;
+  border: 1px solid rgba(120, 255, 183, 0.28);
+  background: rgba(120, 255, 183, 0.08);
+  border-radius: 999px;
+  padding: 7px 10px;
+}
+
+.badge-category {
+  color: var(--muted);
+  font-weight: 900;
+}

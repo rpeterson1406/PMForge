@@ -1,0 +1,36 @@
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.focus-card {
+  min-height: 225px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 26px;
+  background: rgba(255, 255, 255, 0.055);
+}
+
+.focus-card h3 {
+  font-size: 23px;
+  letter-spacing: -0.04em;
+  margin-bottom: 12px;
+}
+
+.focus-card p {
+  color: var(--muted);
+  font-size: 15px;
+}
+
+@media (max-width: 1000px) {
+  .focus-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .focus-grid {
+    grid-template-columns: 1fr;
+  }
+}
