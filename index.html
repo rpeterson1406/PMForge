@@ -396,6 +396,20 @@
     .project p { color: var(--muted); max-width: 520px; position: relative; z-index: 1; }
     .mini-stack { margin-top: 24px; position: relative; z-index: 1; }
 
+    .project-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 24px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .project-actions .btn {
+      padding: 12px 16px;
+      font-size: 14px;
+    }
+
     .focus-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
 
     .focus-card {
@@ -772,16 +786,19 @@
 
         <article class="project">
           <div class="project-top">
-            <span class="project-number">06</span>
-            <span class="status">Prototype</span>
+            <span class="project-number">Generative AI</span>
+            <span class="status">AI Application</span>
           </div>
           <h3>Sports Roast</h3>
           <p>
-            A playful AI experience that turns game results, player stats, and headlines into
-            witty sports roasts and shareable commentary for fans who want humor with their scores.
+            Conversational AI entertainment application that dynamically generates context-aware sports comedy using persona-driven prompt engineering, temporal grounding, intensity scaling, and conversational memory management with hallucination reduction.
           </p>
           <div class="mini-stack">
-            <span class="chip">OpenAI</span><span class="chip">Sports Data</span><span class="chip">Content Gen</span><span class="chip">Social Share</span>
+            <span class="chip">OpenAI API</span><span class="chip">GPT model</span><span class="chip">React</span><span class="chip">TypeScript</span><span class="chip">Responsive web UI</span><span class="chip">Advanced prompt engineering</span>
+          </div>
+          <div class="project-actions">
+            <a class="btn" href="#">View Case Study</a>
+            <a class="btn primary" href="https://sports-roast.vercel.app" target="_blank" rel="noopener noreferrer">Launch Demo →</a>
           </div>
         </article>
       </div>
