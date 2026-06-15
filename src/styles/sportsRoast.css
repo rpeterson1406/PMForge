@@ -15,46 +15,6 @@
       #030812;
   }
   
-  .sr-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 22px;
-  }
-  
-  .sr-brand {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 18px;
-  }
-  
-  .sr-logo {
-    transform: rotate(-8deg);
-    display: inline-block;
-    font-size: 22px;
-  }
-  
-  .sr-nav-links {
-    display: flex;
-    gap: 34px;
-    font-size: 14px;
-  }
-  
-  .sr-nav-links a {
-    color: rgba(255, 255, 255, 0.92);
-    text-decoration: none;
-  }
-  
-  .sr-nav-cta {
-    background: #1164ff;
-    color: white;
-    text-decoration: none;
-    padding: 13px 22px;
-    border-radius: 8px;
-    font-weight: 800;
-  }
-  
   .sr-card {
     background:
       linear-gradient(145deg, rgba(12, 25, 45, 0.92), rgba(5, 11, 22, 0.9)),
@@ -425,19 +385,6 @@
     .sr-page {
       width: min(100% - 24px, 1200px);
       padding: 14px 0 36px;
-    }
-  
-    .sr-nav {
-      margin-bottom: 14px;
-    }
-  
-    .sr-nav-links {
-      display: none;
-    }
-  
-    .sr-nav-cta {
-      padding: 10px 14px;
-      font-size: 13px;
     }
   
     .sr-hero,

@@ -4,25 +4,6 @@ import "../styles/sportsRoast.css";
 export function SportsRoastCaseStudyPage() {
   return (
     <main className="sr-page">
-      <nav className="sr-nav">
-        <div className="sr-brand">
-          <span className="sr-logo">▰</span>
-          <strong>PMFORGE</strong>
-        </div>
-
-        <div className="sr-nav-links">
-          <a href="/">Home</a>
-          <a href="/#projects">Projects</a>
-          <a href="/#about">About</a>
-          <a href="/blog">Blog</a>
-          <a href="/#contact">Contact</a>
-        </div>
-
-        <a className="sr-nav-cta" href="/#projects">
-          View All Projects
-        </a>
-      </nav>
-
       <section className="sr-hero sr-card">
         <div className="sr-hero-copy">
           <div className="sr-eyebrow">GENERATIVE AI PROJECT</div>
