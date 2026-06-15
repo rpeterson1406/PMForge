@@ -43,9 +43,10 @@ export function SportsRoastCaseStudyPage() {
         <div className="sr-demo-card">
           <div className="sr-demo-header">
             <strong>🔥 SPORTS ROAST</strong>
-            <span>
-              Roast Intensity <em>MEDIUM⌄</em>
-            </span>
+            <div className="sr-demo-intensity">
+              <span>Roast Intensity</span>
+              <em>MEDIUM⌄</em>
+            </div>
           </div>
 
           <div className="sr-demo-main">
