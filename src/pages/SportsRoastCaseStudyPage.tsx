@@ -70,16 +70,20 @@ export function SportsRoastCaseStudyPage() {
       </section>
 
       <section className="sr-two-grid">
-        <InfoCard icon="ⓘ" title="1. Product Overview">
-          Sports Roast lets fans enter a team and receive a customized
-          AI-generated roast. The experience is designed to feel like sports-bar
-          banter: funny, current, conversational, and tailored to the team.
+        <InfoCard icon="ⓘ" title="Product Overview">
+          Sports Roast explores the intersection of AI, entertainment, and user
+          engagement. Fans enter a favorite team and receive personalized,
+          context-aware roasts generated through a combination of prompt engineering,
+          sports-specific context, and conversational design principles that create a
+          memorable and shareable experience.
         </InfoCard>
 
         <InfoCard icon="☆" title="Why It Matters">
-          Most AI demos generate generic responses. Sports Roast explores how
-          LLMs can be shaped into a repeatable entertainment product with tone
-          control, context awareness, and user-driven conversation.
+          The value of AI products is rarely the model itself—it&apos;s the experience
+          built around it. Sports Roast demonstrates how prompt strategy, contextual
+          grounding, and conversational UX can be combined to create a differentiated
+          product with higher engagement, stronger retention potential, and a unique
+          brand voice.
         </InfoCard>
       </section>
 
@@ -87,7 +91,7 @@ export function SportsRoastCaseStudyPage() {
         <SectionTitle icon="◎" title="2. The Challenge" />
 
         <div className="sr-challenge-grid">
-          <Challenge emoji="😂" text="Generate jokes that feel specific, not generic" />
+          <Challenge emoji="😂" text="Generate dynamic custom content, not generic" />
           <Challenge emoji="🗓️" text="Stay grounded in recent sports context" />
           <Challenge emoji="🛡️" text="Avoid fake stats or invented facts" />
           <Challenge emoji="🎚️" text="Adjust roast intensity" />

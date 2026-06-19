@@ -79,11 +79,6 @@ export const showcaseSystems = [
     description: "Monitor API usage, forecast spend, and alert when thresholds are crossed.",
   },
   {
-    title: "Gas Price Agent",
-    description:
-      "Tracks local fuel prices, surfaces the best fill-up options, and sends alerts when costs shift.",
-  },
-  {
     title: "Sports Roast",
     description:
       "Generates sharp, funny sports commentary and personalized roasts from live scores and headlines.",
